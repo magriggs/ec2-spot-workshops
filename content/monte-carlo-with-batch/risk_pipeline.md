@@ -18,7 +18,7 @@ We will use an example portfolio file, formatted in JSON, that is stored in Gith
 Run the following command to download the file and upload it to S3:
 
 ```
-wget "https://raw.githubusercontent.com/awslabs/ec2-spot-workshops/master/content/monte-carlo-with-batch/monte-carlo-with-batch.files/portfolio.json"
+wget "https://raw.githubusercontent.com/magriggs/ec2-spot-workshops/master/content/monte-carlo-with-batch/monte-carlo-with-batch.files/portfolio.json"
 aws s3api put-object --bucket "${BucketName}" --key "${MonteCarloFileName}" --body "${MonteCarloFileName}"
 ```
 
