@@ -27,6 +27,9 @@ wget "https://raw.githubusercontent.com/magriggs/ec2-spot-workshops/master/conte
 wget "https://raw.githubusercontent.com/magriggs/ec2-spot-workshops/master/content/monte-carlo-with-batch/monte-carlo-with-batch.files/docker-files/montecarlo-price.sh"
 ```
 
+### Optional: Take a look under the hood
+The three files you just downloaded help create and then execute a Docker container that will perform the risk calculations. If you're interested, you can [dive deeper](docker-files/dive_deeper.md)
+
 ### Push the image to ECR
 
 1. Retrieve the repository's Uri and registry Id:
