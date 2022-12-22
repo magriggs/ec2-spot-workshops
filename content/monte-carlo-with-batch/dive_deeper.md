@@ -1,8 +1,10 @@
 ---
-title: "Diving Deep into the technical details"
-date: 2022-12-22T08:51:33Z
+title: "Dive Deeper: the underlying risk compute environment"
+date: 2021-09-06T08:51:33Z
+weight: 160
 hidden: True
 ---
+
 ## Dive Deeper
 This optional section will give you more knowledge of how the underlying technology is used to calculate our risk metrics. 
 
